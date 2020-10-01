@@ -89,6 +89,24 @@ nav ul::after{
     animation: run 2s linear 1;
 }
 
+.bottom-menu{
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+}
+
+.bottom-menu div{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+.bottom-menu img{
+    width: 30px;
+    margin-right: 10px;
+}
+
 @keyframes run{
     0%{
         transform: translate(-100px,-100px);
